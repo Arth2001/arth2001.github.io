@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-11-03T18:27:29+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Octomuski Blog</title><subtitle>“Hacking is not about breaking in; it&apos;s about understanding.”</subtitle><author><name>Arth Doshi</name><email>doshiarth883@gmail.com</email></author><entry><title type="html">Sample Blog Post 1</title><link href="http://localhost:4000/2024/11/02/sample-post-1/" rel="alternate" type="text/html" title="Sample Blog Post 1" /><published>2024-11-02T00:00:00+00:00</published><updated>2024-11-02T00:00:00+00:00</updated><id>http://localhost:4000/2024/11/02/sample-post-1</id><content type="html" xml:base="http://localhost:4000/2024/11/02/sample-post-1/"><![CDATA[<p>This is an automatically generated blog post for testing purposes.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Post number 1.</p>]]></content><author><name>Your Name</name></author><summary type="html"><![CDATA[This is an automatically generated blog post for testing purposes.]]></summary></entry><entry><title type="html">Octomuski Blog</title><link href="http://localhost:4000/2024/11/02/soc-lab1/" rel="alternate" type="text/html" title="Octomuski Blog" /><published>2024-11-02T00:00:00+00:00</published><updated>2024-11-02T00:00:00+00:00</updated><id>http://localhost:4000/2024/11/02/soc-lab1</id><content type="html" xml:base="http://localhost:4000/2024/11/02/soc-lab1/"><![CDATA[<h1 id="introduction">Introduction</h1>
+
+<p>This is the section for the introduction.</p>
+
+<h2 id="section1">Section 1</h2>
+
+<p>Content for section 1.</p>
+
+<h2 id="section2">Section 2</h2>
+
+<p>Content for section 2.</p>
+
+<h2 id="section3">Section 3</h2>
+
+<p>Content for section 3.</p>
+<h1 id="introduction">Introduction</h1>
+
+<p>This is the section for the introduction.</p>
+
+<h2 id="section1">Section 1</h2>
+
+<p>Content for section 1.</p>
+
+<h2 id="section2">Section 2</h2>
+
+<p>Content for section 2.</p>
+
+<h2 id="section3">Section 3</h2>
+
+<p>Content for section 3.</p>
+<h1 id="introduction">Introduction</h1>
+
+<p>This is the section for the introduction.</p>
+
+<h2 id="section1">Section 1</h2>
+
+<p>Content for section 1.</p>
+
+<h2 id="section2">Section 2</h2>
+
+<p>Content for section 2.</p>
+
+<h2 id="section3">Section 3</h2>
+
+<p>Content for section 3.</p>
+<h1 id="introduction">Introduction</h1>
+
+<p>This is the section for the introduction.</p>
+
+<h2 id="section1">Section 1</h2>
+
+<p>Content for section 1.</p>
+
+<h2 id="section2">Section 2</h2>
+
+<p>Content for section 2.</p>
+
+<h2 id="section3">Section 3</h2>
+
+<p>Content for section 3.</p>
+<h1 id="introduction">Introduction</h1>
+
+<p>This is the section for the introduction.</p>
+
+<h2 id="section1">Section 1</h2>
+
+<p>Content for section 1.</p>
+
+<h2 id="section2">Section 2</h2>
+
+<p>Content for section 2.</p>
+
+<h2 id="section3">Section 3</h2>
+
+<p>Content for section 3.</p>
+<h1 id="introduction">Introduction</h1>
+
+<p>This is the section for the introduction.</p>
+
+<h2 id="section1">Section 1</h2>
+
+<p>Content for section 1.</p>
+
+<h2 id="section2">Section 2</h2>
+
+<p>Content for section 2.</p>
+
+<h2 id="section3">Section 3</h2>
+
+<p>Content for section 3.</p>
+<h1 id="introduction">Introduction</h1>
+
+<p>This is the section for the introduction.</p>
+
+<h2 id="section1">Section 1</h2>
+
+<p>Content for section 1.</p>
+
+<h2 id="section2">Section 2</h2>
+
+<p>Content for section 2.</p>
+
+<h2 id="section3">Section 3</h2>
+
+<p>Content for section 3.</p>
+<h1 id="introduction">Introduction</h1>
+
+<p>This is the section for the introduction.</p>
+
+<h2 id="section1">Section 1</h2>
+
+<p>Content for section 1.</p>
+
+<h2 id="section2">Section 2</h2>
+
+<p>Content for section 2.</p>
+
+<h2 id="section3">Section 3</h2>
+
+<p>Content for section 3.</p>
+<h1 id="introduction">Introduction</h1>
+
+<p>This is the section for the introduction.</p>
+
+<h2 id="section1">Section 1</h2>
+
+<p>Content for section 1.</p>
+
+<h2 id="section2">Section 2</h2>
+
+<p>Content for section 2.</p>
+
+<h2 id="section3">Section 3</h2>
+
+<p>Content for section 3.</p>
+<h1 id="introduction">Introduction</h1>
+
+<p>This is the section for the introduction.</p>
+
+<h2 id="section1">Section 1</h2>
+
+<p>Content for section 1.</p>
+
+<h2 id="section2">Section 2</h2>
+
+<p>Content for section 2.</p>
+
+<h2 id="section3">Section 3</h2>
+
+<p>Content for section 3.</p>
+<h1 id="introduction">Introduction</h1>
+
+<p>This is the section for the introduction.</p>
+
+<h2 id="section1">Section 1</h2>
+
+<p>Content for section 1.</p>
+
+<h2 id="section2">Section 2</h2>
+
+<p>Content for section 2.</p>
+
+<h2 id="section3">Section 3</h2>
+
+<p>Content for section 3.</p>
+<h1 id="section4">Introduction</h1>
+
+<p>This is the section for the introduction.</p>
+
+<h2 id="section1">Section 1</h2>
+
+<p>Content for section 1.</p>
+
+<h2 id="section2">Section 2</h2>
+
+<p>Content for section 2.</p>
+
+<h2 id="section3">Section 3</h2>
+
+<p>Content for section 3.</p>
+<h1 id="introduction">Introduction</h1>
+
+<p>This is the section for the introduction.</p>
+
+<h2 id="section1">Section 1</h2>
+
+<p>Content for section 1.</p>
+
+<h2 id="section2">Section 2</h2>
+
+<p>Content for section 2.</p>
+
+<h2 id="section3">Section 3</h2>
+
+<p>Content for section 3.</p>]]></content><author><name>Arth</name></author><summary type="html"><![CDATA[Introduction]]></summary></entry><entry><title type="html">Sample Blog Post 2</title><link href="http://localhost:4000/2024/11/01/sample-post-2/" rel="alternate" type="text/html" title="Sample Blog Post 2" /><published>2024-11-01T00:00:00+00:00</published><updated>2024-11-01T00:00:00+00:00</updated><id>http://localhost:4000/2024/11/01/sample-post-2</id><content type="html" xml:base="http://localhost:4000/2024/11/01/sample-post-2/"><![CDATA[<p>This is an automatically generated blog post for testing purposes.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Post number 2.</p>]]></content><author><name>Your Name</name></author><summary type="html"><![CDATA[This is an automatically generated blog post for testing purposes.]]></summary></entry><entry><title type="html">Sample Blog Post 3</title><link href="http://localhost:4000/2024/10/31/sample-post-3/" rel="alternate" type="text/html" title="Sample Blog Post 3" /><published>2024-10-31T00:00:00+00:00</published><updated>2024-10-31T00:00:00+00:00</updated><id>http://localhost:4000/2024/10/31/sample-post-3</id><content type="html" xml:base="http://localhost:4000/2024/10/31/sample-post-3/"><![CDATA[<p>This is an automatically generated blog post for testing purposes.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Post number 3.</p>]]></content><author><name>Your Name</name></author><summary type="html"><![CDATA[This is an automatically generated blog post for testing purposes.]]></summary></entry><entry><title type="html">Sample Blog Post 4</title><link href="http://localhost:4000/blog/2024/10/30/sample-post-4/" rel="alternate" type="text/html" title="Sample Blog Post 4" /><published>2024-10-30T00:00:00+00:00</published><updated>2024-10-30T00:00:00+00:00</updated><id>http://localhost:4000/blog/2024/10/30/sample-post-4</id><content type="html" xml:base="http://localhost:4000/blog/2024/10/30/sample-post-4/"><![CDATA[<p>This is an automatically generated blog post for testing purposes.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Post number 4.</p>]]></content><author><name>Arth Doshi</name><email>doshiarth883@gmail.com</email></author><category term="blog" /><summary type="html"><![CDATA[This is an automatically generated blog post for testing purposes.]]></summary></entry><entry><title type="html">Sample Blog Post 5</title><link href="http://localhost:4000/2024/10/29/sample-post-5/" rel="alternate" type="text/html" title="Sample Blog Post 5" /><published>2024-10-29T00:00:00+00:00</published><updated>2024-10-29T00:00:00+00:00</updated><id>http://localhost:4000/2024/10/29/sample-post-5</id><content type="html" xml:base="http://localhost:4000/2024/10/29/sample-post-5/"><![CDATA[<p>This is an automatically generated blog post for testing purposes.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Post number 5.</p>]]></content><author><name>Your Name</name></author><summary type="html"><![CDATA[This is an automatically generated blog post for testing purposes.]]></summary></entry></feed>

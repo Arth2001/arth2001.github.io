@@ -1,0 +1,33 @@
+# Site settings
+title: "Octomuski Blog"
+description: "“Hacking is not about breaking in; it's about understanding.”"
+url: "https://Arth2001.github.io" # Change to your GitHub Pages URL
+baseurl: "" # Set to "/yourblogname" if in a subdirectory
+
+# Author settings
+author:
+  name: "Arth Doshi"
+  email: "doshiarth883@gmail.com"
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Social media links
+social:
+  github: "https://github.com/Arth2001"
+  # twitter: "https://twitter.com/yourusername"
+
+# Custom variables
+permalink: /:categories/:year/:month/:day/:title/
+
+theme: minima
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md

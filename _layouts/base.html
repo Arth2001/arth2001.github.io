@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.title }} - Blog</title>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
+  <div class="header-box">
+    <header>
+      <h1>{{ site.title }}</h1>
+      <p>{{ site.description }}</p>
+    </header>
+  </div>
+
+  <!-- Blog List Section -->
+  <main class="blog-list">
+    {% for post in site.posts %}
+      <article class="blog-card">
+        <div class="blog-card-content">
+          <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+          <p class="post-excerpt">{{ post.excerpt }}</p>
+          <p class="post-meta">
+            <span>📅 {{ post.date | date: "%B %d, %Y" }}</span>
+            {% if post.author %}
+              <span>✍️ {{ post.author }}</span>
+            {% endif %}
+          </p>
+        </div>
+      </article>
+    {% endfor %}
+  </main>
+  
+
+  <!-- Footer Section -->
+  <div class="footer-box">
+    <footer>
+      <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>

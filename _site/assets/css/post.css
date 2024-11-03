@@ -1,0 +1,54 @@
+/* Post Page Styling */
+
+/* Boxed Styling for Post Content */
+.post-box {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  }
+  
+  .post-content h1 {
+    color: #a1c4fd;
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .post-meta {
+    font-size: 0.9em;
+    color: #78909c;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .content {
+    color: #e0e0e0;
+    line-height: 1.8;
+  }
+  
+  .content p {
+    margin: 15px 0;
+  }
+  
+  /* Link Styling */
+  .content a {
+    color: #64b5f6;
+    text-decoration: underline;
+  }
+  
+  .content a:hover {
+    color: #a1c4fd;
+  }
+  
+  /* Images within Posts */
+  .content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin: 15px 0;
+  }
+  
