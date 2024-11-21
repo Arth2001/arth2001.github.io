@@ -1,0 +1,231 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: #333;
+  }
+  
+  /* Main Container */
+  .main-container {
+    display: flex;
+    position: relative;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  /* Hover Button to Show Side Nav */
+  .hover-button {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: #333;
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    z-index: 1000; /* To ensure the button stays on top */
+  }
+  
+  .hover-button button {
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Side Navigation (Initially Hidden) */
+  .side-nav {
+    position: fixed;
+    top: 0;
+    left: -220px; /* Hide off-screen initially */
+    width: 250px;
+    height: 100%;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-right: 1px solid #1111;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    transition: left 0.3s ease; /* Smooth transition */
+  }
+ 
+  
+  /* Side nav list styling */
+  .side-nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .side-nav ul li a img {
+    width: 20px; /* Set the size of the icon */
+    height: 20px; /* Set the size of the icon */
+    margin-right: 10px; /* Space between the image and the text */
+  }
+  
+  .side-nav ul li {
+    margin: 20px 0;
+  }
+  
+  .side-nav ul li a {
+    text-decoration: none;
+    color: #e0e0e0;
+    transition: color 0.3s;
+  }
+  
+  .side-nav ul li a:hover {
+    color: #005bb5;
+  }
+
+  /* Styling for the unordered list */
+.side-nav ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding from the list */
+    margin: 0; /* Remove margin */
+  }
+  
+  /* Styling for the list items */
+  .side-nav ul li {
+    margin-bottom: 20px; /* Space between the list items */
+  }
+  
+  /* Styling for the links */
+  .side-nav a {
+    display: flex; /* Flexbox to align text and image */
+    align-items: center; /* Vertically center the text and image */
+    color: #fff; /* Text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 1.2em; /* Increase font size */
+    font-family: 'Arial', sans-serif; /* Set font */
+    padding: 10px; /* Add padding to make the link more clickable */
+    transition: color 0.3s ease, background-color 0.3s ease; /* Transition for hover effect */
+  }
+  
+  
+  /* Blog Post */
+  .post-box {
+    margin-left: 150px; /* Space for the side nav */
+    max-width: 800px;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  }
+  
+  .post-content h1 {
+    color: #a1c4fd;
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .post-meta {
+    font-size: 0.9em;
+    color: #78909c;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .post-content .content {
+    color: #e0e0e0;
+    line-height: 1.8;
+  }
+  
+  /* Hover Effect for Side Navigation */
+  .main-container:hover .side-nav {
+    left: 0; /* Slide the side nav into view when the container is hovered */
+  }
+  
+ 
+
+  /* Square Indicator Style */
+.square {
+    position: absolute;
+    top: 20px;  /* Adjust the top position */
+    left: 20px; /* Adjust the left position */
+    width: 50px;  /* Square size */
+    height: 50px; /* Square size */
+    background-color: #64b5f6;
+    opacity: 0; /* Hidden initially */
+    transition: opacity 0.3s ease;
+  }
+  
+  .square.visible {
+    opacity: 1;
+  }
+  
+  /* Add image to side nav */
+  .nav-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px; /* Space between image and nav items */
+    margin-bottom: 30px; /* Increase space between image and nav items */
+    margin-top: 30px; /* Add space at the top of the image */
+    text-align: center;
+    position: relative;
+  }
+  
+  .nav-image img {
+    width: 90%;  /* Adjust the width to your preference */
+    height: auto;  /* Maintain the aspect ratio */
+    max-width: 300px;  /* Optional: set a max width */
+    max-height: 300px; /* Increase space between image and nav items */
+    border-radius: 8px;  /* Optional: rounded corners */
+    object-fit: cover;  /* Ensures the image covers the area */
+    transition: transform 0.3s ease;  /* Optional: add a smooth hover effect */
+  }
+  
+  /* Small Circle (Indicator) */
+  .image-indicator {
+    position: absolute;
+    bottom: -10px; /* Position the circle below the image */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 40px;
+    background-color: #ff5722; /* Circle color */
+    border-radius: 50%;
+    display: none; /* Initially hidden */
+  }
+  .nav-image img:hover {
+    transform: scale(1.3);  /* Optional: slightly enlarge image on hover */
+  }
+  
+  .side-nav .image-indicator.visible {
+    display: block; /* Show the circle when the class is added */
+  }
+  
+  /* Square Image Styling */
+  .square-image {
+    width: 100%; /* Take up the full width of the container */
+    height: 0;
+    padding-bottom: 100%; /* This ensures the height is equal to the width, creating a square */
+    object-fit: cover; /* Ensures the image covers the area and is cropped if necessary */
+    border-radius: 8px; /* Optional: Adds rounded corners */
+    background-color: #ccc; /* Fallback color in case the image fails to load */
+  }
+  
+  /* Responsive Design for small screens */
+  @media (max-width: 768px) {
+    .side-nav {
+        width: 200px;
+    }
+  
+    .main-container {
+        margin-left: 0;
+    }
+  
+    .blog-list {
+        margin-left: 220px;
+    }
+  }
+  

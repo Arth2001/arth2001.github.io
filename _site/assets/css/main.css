@@ -6,15 +6,26 @@ body {
   }
   
   /* Header and Footer Box Styling */
-  .header-box, .footer-box {
+  .header-box {
     max-width: 800px;
     margin: 20px auto;
+    margin-right: 245px;
     background-color: #1e1e1e;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
   }
   
+  .footer-box {
+    max-width: 800px;
+    margin: 20px auto;
+    margin-right: 245px;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+
+  }
   header, footer {
     text-align: center;
     color: #f5f5f5;
@@ -77,3 +88,19 @@ body {
     justify-content: space-between;
   }
   
+
+
+
+/* General Container Styles */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+ 
+  
+  gap: 20px;
+}
+
+  
+
+
