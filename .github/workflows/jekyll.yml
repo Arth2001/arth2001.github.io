@@ -37,3 +37,8 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
+          run: |
+            git config --global user.name "github-actions[bot]"
+            git config --global user.email "github-actions[bot]@users.noreply.github.com"
+            git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Arth2001/arth2001.github.io.git
+            git push origin gh-pages
