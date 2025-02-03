@@ -30,24 +30,24 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="Categories" />
+<meta property="og:title" content="OpenCTI Installation on Google Cloud Platform" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="A minimal, responsive and feature-rich Jekyll theme for technical writing." />
-<meta property="og:description" content="A minimal, responsive and feature-rich Jekyll theme for technical writing." />
-<link rel="canonical" href="https://arth2001.github.io/categories/" />
-<meta property="og:url" content="https://arth2001.github.io/categories/" />
+<meta name="description" content="Prerequisites 1 2 3 4 5 6 7 8 9 System Requirement: OS : Ubuntu 24.04 LTS (x86/64, amd64) Disk Size: 30 GB # recommended more size as per your requirement memory: 16 GB core: 4 vcpu (1 shared core) Networking: Allow port 80 # http traffic Allow port 8080 Allow port 443 # https traffic" />
+<meta property="og:description" content="Prerequisites 1 2 3 4 5 6 7 8 9 System Requirement: OS : Ubuntu 24.04 LTS (x86/64, amd64) Disk Size: 30 GB # recommended more size as per your requirement memory: 16 GB core: 4 vcpu (1 shared core) Networking: Allow port 80 # http traffic Allow port 8080 Allow port 443 # https traffic" />
+<link rel="canonical" href="https://arth2001.github.io/posts/opencti-installation-gcp/" />
+<meta property="og:url" content="https://arth2001.github.io/posts/opencti-installation-gcp/" />
 <meta property="og:site_name" content="Octomuski" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-02-03T14:13:36+00:00" />
+<meta property="article:published_time" content="2024-12-21T00:00:00+00:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Categories" />
+<meta property="twitter:title" content="OpenCTI Installation on Google Cloud Platform" />
 <meta name="twitter:site" content="@DoshiArth53733" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-03T14:13:36+00:00","datePublished":"2025-02-03T14:13:36+00:00","description":"A minimal, responsive and feature-rich Jekyll theme for technical writing.","headline":"Categories","mainEntityOfPage":{"@type":"WebPage","@id":"https://arth2001.github.io/categories/"},"url":"https://arth2001.github.io/categories/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-12-21T00:00:00+00:00","datePublished":"2024-12-21T00:00:00+00:00","description":"Prerequisites 1 2 3 4 5 6 7 8 9 System Requirement: OS : Ubuntu 24.04 LTS (x86/64, amd64) Disk Size: 30 GB # recommended more size as per your requirement memory: 16 GB core: 4 vcpu (1 shared core) Networking: Allow port 80 # http traffic Allow port 8080 Allow port 443 # https traffic","headline":"OpenCTI Installation on Google Cloud Platform","mainEntityOfPage":{"@type":"WebPage","@id":"https://arth2001.github.io/posts/opencti-installation-gcp/"},"url":"https://arth2001.github.io/posts/opencti-installation-gcp/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>Categories | Octomuski
+  <title>OpenCTI Installation on Google Cloud Platform | Octomuski
   </title>
 
   <!--
@@ -111,9 +111,16 @@
   <!-- 3rd-party Dependencies -->
 
   
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.32.2/dist/tocbot.min.css">
   
 
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.min.css">
+  
+
+  
+    <!-- Image Popup -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/css/glightbox.min.css">
   
 
   <!-- Scripts -->
@@ -129,6 +136,13 @@
 <!-- layout specified -->
 
 
+  
+
+  
+    <!-- image lazy-loading & popup & clipboard -->
+    
+  
+
 
 
 
@@ -150,9 +164,58 @@
 
   
 
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
+
+  
+    
+
+    
+
+  
 
 
-  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js"></script>
 
 
 
@@ -160,11 +223,15 @@
 
 
 
-<script defer src="/assets/js/dist/categories.min.js"></script>
+<script defer src="/assets/js/dist/post.min.js"></script>
 
 
 
 <!-- Pageviews -->
+
+  
+
+  
 
 
 
@@ -198,7 +265,7 @@
       </li>
       <!-- the real tabs -->
       
-        <li class="nav-item active">
+        <li class="nav-item">
           <a href="/categories/" class="nav-link">
             <i class="fa-fw fas fa-stream"></i>
             
@@ -363,8 +430,10 @@
           
         
           
+        
+          
             
-              <span>Categories</span>
+              <span>OpenCTI Installation on Google Cloud Platform</span>
             
 
           
@@ -378,7 +447,7 @@
     </button>
 
     <div id="topbar-title">
-      Categories
+      Post
     </div>
 
     <button type="button" id="search-trigger" class="btn btn-link">
@@ -404,88 +473,293 @@
         <div class="row flex-grow-1">
           <main aria-label="Main Content" class="col-12 col-lg-11 col-xl-9 px-md-4">
             
-              
+              <!-- Refactor the HTML structure -->
 
 
 
-<article class="px-1">
+<!--
+  In order to allow a wide table to scroll horizontally,
+  we suround the markdown table with `<div class="table-wrapper">` and `</div>`
+-->
+
+
+
+<!--
+  Fixed kramdown code highlight rendering:
+  https://github.com/penibelst/jekyll-compress-html/issues/101
+  https://github.com/penibelst/jekyll-compress-html/issues/71#issuecomment-188144901
+-->
+
+
+
+<!-- Change the icon of checkbox -->
+
+
+
+<!-- Handle images -->
+
+
+
+
+
+<!-- Add header for code snippets -->
+
+
+
+<!-- Create heading anchors -->
+
+
+
+
+
   
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+
+
+
+<!-- return -->
+
+
+
+
+
+
+
+
+
+
+<article class="px-1" data-toc="false">
+  <header>
+    <h1 data-toc-skip>OpenCTI Installation on Google Cloud Platform</h1>
     
-    
-    <h1 class="dynamic-title">
-      Categories
-    </h1>
-    <div class="content">
+
+    <div class="post-meta text-muted">
+      <!-- published date -->
+      <span>
+        Posted
+        <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1734739200"
+  data-df="ll"
+  
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
+  
+>
+  Dec 21, 2024
+</time>
+
+      </span>
+
+      <!-- lastmod date -->
       
 
+      
 
-
-
-
-
-
-
-
-
-
-  
-  
-  
-
-  
-    
-
-    
-
-    
-    
-
-    <div class="card categories">
-      <!-- top-category -->
-      <div
-        id="h_0"
-        class="card-header d-flex justify-content-between hide-border-bottom"
-      >
-        <span class="ms-2">
-          <i class="far fa-folder fa-fw"></i>
-
+      <div class="d-flex justify-content-between">
+        <!-- author(s) -->
+        <span>
           
-          <a href="/categories/installation/" class="mx-2">Installation</a>
 
-          <!-- content count -->
-          
-          <span class="text-muted small font-weight-light">
-            
+          By
 
-            2
-
+          <em>
             
-              posts
+              <a href="https://twitter.com/arth2001">Octomuski</a>
             
-          </span>
+          </em>
         </span>
 
-        <!-- arrow -->
+        <div>
+          <!-- pageviews -->
+          
+
+          <!-- read time -->
+          <!-- Calculate the post's reading time, and display the word count in tooltip -->
+
+
+
+<!-- words per minute -->
+
+
+
+
+
+
+
+
+
+
+<!-- return element -->
+<span
+  class="readtime"
+  data-bs-toggle="tooltip"
+  data-bs-placement="bottom"
+  title="56 words"
+>
+  <em>1 min</em> read</span>
+
+        </div>
+      </div>
+    </div>
+  </header>
+
+  
+
+  <div class="content">
+    <h1 id="prerequisites">Prerequisites</h1>
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="rouge-code"><pre>System Requirement: 
+	OS : Ubuntu 24.04 LTS (x86/64, amd64)
+	Disk Size: 30 GB     # recommended more size as per your requirement 
+	memory: 16 GB
+	core: 4 vcpu (1 shared core)
+	Networking: 
+		Allow port 80 # http traffic
+		Allow port 8080
+		Allow port 443 # https traffic
+</pre></td></tr></tbody></table></code></div></div>
+
+  </div>
+
+  <div class="post-tail-wrapper text-muted">
+    <!-- categories -->
+    
+      <div class="post-meta mb-3">
+        <i class="far fa-folder-open fa-fw me-1"></i>
         
-          <span data-bs-toggle="collapse" class="category-trigger hide-border-bottom disabled">
-            <i class="fas fa-fw fa-angle-right"></i>
-          </span>
+          <a href="/categories/installation/">Installation</a>
+      </div>
+    
+
+    <!-- tags -->
+    
+      <div class="post-tags">
+        <i class="fa fa-tags fa-fw me-1"></i>
+        
+          <a
+            href="/tags/like/"
+            class="post-tag no-text-decoration"
+          >like</a>
+        
+          <a
+            href="/tags/comment/"
+            class="post-tag no-text-decoration"
+          >comment</a>
+        
+          <a
+            href="/tags/subscribe/"
+            class="post-tag no-text-decoration"
+          >subscribe</a>
         
       </div>
-      <!-- .card-header -->
+    
 
-      <!-- Sub-categories -->
-      
-    </div>
-    <!-- .card -->
+    <div
+      class="
+        post-tail-bottom
+        d-flex justify-content-between align-items-center mt-5 pb-2
+      "
+    >
+      <div class="license-wrapper">
+        
+          
+
+          This post is licensed under 
+        <a href="https://creativecommons.org/licenses/by/4.0/">
+          CC BY 4.0
+        </a>
+         by the author.
+        
+      </div>
+
+      <!-- Post sharing snippet -->
+
+<div class="share-wrapper d-flex align-items-center">
+  <span class="share-label text-muted">Share</span>
+  <span class="share-icons">
+    
+    
+    
 
     
-  
 
+      
+
+      <a href="https://twitter.com/intent/tweet?text=OpenCTI%20Installation%20on%20Google%20Cloud%20Platform%20-%20Octomuski&url=https%3A%2F%2Farth2001.github.io%2Fposts%2Fopencti-installation-gcp%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+        <i class="fa-fw fa-brands fa-square-x-twitter"></i>
+      </a>
+    
+
+      
+
+      <a href="https://www.facebook.com/sharer/sharer.php?title=OpenCTI%20Installation%20on%20Google%20Cloud%20Platform%20-%20Octomuski&u=https%3A%2F%2Farth2001.github.io%2Fposts%2Fopencti-installation-gcp%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+        <i class="fa-fw fab fa-facebook-square"></i>
+      </a>
+    
+
+      
+
+      <a href="https://t.me/share/url?url=https%3A%2F%2Farth2001.github.io%2Fposts%2Fopencti-installation-gcp%2F&text=OpenCTI%20Installation%20on%20Google%20Cloud%20Platform%20-%20Octomuski" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+        <i class="fa-fw fab fa-telegram"></i>
+      </a>
+    
+
+    <button
+      id="copy-link"
+      aria-label="Copy link"
+      class="btn small"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      title="Copy link"
+      data-title-succeed="Link copied successfully!"
+    >
+      <i class="fa-fw fas fa-link pe-none fs-6"></i>
+    </button>
+  </span>
+</div>
 
     </div>
-  
+    <!-- .post-tail-bottom -->
+  </div>
+  <!-- div.post-tail-wrapper -->
 </article>
+
 
             
           </main>
@@ -617,12 +891,142 @@
             </div>
 
             
+              
+              
+
+
+
+
+
+
+
+            
           </aside>
         </div>
 
         <div class="row">
           <!-- tail -->
           <div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 px-md-4">
+            
+              
+              <!-- Recommend the other 3 posts according to the tags and categories of the current post. -->
+
+<!-- The total size of related posts -->
+
+
+<!-- An random integer that bigger than 0 -->
+
+
+<!-- Equals to TAG_SCORE / {max_categories_hierarchy} -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+  <aside id="related-posts" aria-labelledby="related-label">
+    <h3 class="mb-4" id="related-label">Further Reading</h3>
+    <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
+      
+        <article class="col">
+          <a href="/posts/my_first_post/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1734739200"
+  data-df="ll"
+  
+>
+  Dec 21, 2024
+</time>
+
+              <h4 class="pt-0 my-2">OpenCTI Installation on Google Cloud Platform</h4>
+              <div class="text-muted">
+                <p>Prerequisites
+System Requirement: 
+	OS : Ubuntu 24.04 LTS (x86/64, amd64)
+	Disk Size: 30 GB     # recommended more size as per your requirement 
+	memory: 16 GB
+	core: 4 vcpu (1 shared core)
+	Networ...</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+    </nav>
+  </aside>
+  <!-- #related-posts -->
+
+
+            
+              
+              <!-- Navigation buttons at the bottom of the post. -->
+
+<nav class="post-navigation d-flex justify-content-between" aria-label="Post Navigation">
+  
+  
+
+  
+    <a
+      href="/posts/my_first_post/"
+      class="btn btn-outline-primary"
+      aria-label="Older"
+    >
+      <p>OpenCTI Installation on Google Cloud Platform</p>
+    </a>
+  
+
+  
+    <div class="btn btn-outline-primary disabled" aria-label="Newer">
+      <p>-</p>
+    </div>
+  
+</nav>
+
             
 
             <!-- The Footer -->
@@ -797,6 +1201,11 @@
     
 
     <!-- Embedded scripts -->
+
+    
+      
+      <!-- The comments switcher -->
+
 
     
 
