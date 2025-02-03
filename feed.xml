@@ -4,7 +4,7 @@
   <id>https://arth2001.github.io/</id>
   <title>Octomuski</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-02-03T14:25:08+00:00</updated>
+  <updated>2025-02-03T14:47:17+00:00</updated>
   <author>
     <name>Octomuski</name>
     <uri>https://arth2001.github.io/</uri>
@@ -47,7 +47,17 @@ System Requirement:
 	Networking: 
 		Allow port 80 # http traffic
 		Allow port 8080
-		Allow port 443 # https traffic</summary>
+		Allow port 443 # https traffic
+
+
+Access SSH Instance
+
+
+
+Create and password user for OpenCTI
+
+# created user and directory for username
+sudo u...</summary>
 
   </entry>
 
