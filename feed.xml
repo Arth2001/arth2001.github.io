@@ -4,7 +4,7 @@
   <id>https://arth2001.github.io/</id>
   <title>Octomuski</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-02-03T15:35:10+00:00</updated>
+  <updated>2025-02-03T15:42:23+00:00</updated>
   <author>
     <name>Octomuski</name>
     <uri>https://arth2001.github.io/</uri>
@@ -55,6 +55,46 @@ sudo ssh -i /path/to/privatekey username@external-ip
 
 
 Create and password user for OpenC...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>OpenBAS Installation on Google Cloud Platform</title>
+    <link href="https://arth2001.github.io/posts/openbas-installation-gcp/" rel="alternate" type="text/html" title="OpenBAS Installation on Google Cloud Platform" />
+    <published>2025-02-03T00:00:00+00:00</published>
+  
+    <updated>2025-02-03T00:00:00+00:00</updated>
+  
+    <id>https://arth2001.github.io/posts/openbas-installation-gcp/</id>
+    <content type="text/html" src="https://arth2001.github.io/posts/openbas-installation-gcp/" />
+    <author>
+      <name>Octomuski</name>
+    </author>
+
+  
+    
+    <category term="Installation" />
+    
+  
+
+  <summary>Prerequisites
+System Requirement: 
+	OS : Ubuntu 24.04 LTS (x86/64, amd64)
+	Disk Size: 30 GB     # recommended more size as per your requirement 
+	memory: 4 GB
+	core: 2vcpu (1 shared core)
+	Networking: 
+		Allow port 80 # http traffic
+		Allow port 8080
+		Allow port 443 # https traffic
+
+
+Access SSH Instance
+sudo ssh -i /path/to/privatekey username@external-ip
+
+
+Create user and password  for OpenBa...</summary>
 
   </entry>
 

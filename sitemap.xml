@@ -1,24 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>https://arth2001.github.io/posts/openbas-installation-gcp/</loc>
+<lastmod>2025-02-03T00:00:00+00:00</lastmod>
+</url>
+<url>
 <loc>https://arth2001.github.io/posts/opencti-installation-gcp/</loc>
 <lastmod>2025-02-03T00:00:00+00:00</lastmod>
 </url>
 <url>
 <loc>https://arth2001.github.io/categories/</loc>
-<lastmod>2025-02-03T15:35:10+00:00</lastmod>
+<lastmod>2025-02-03T15:42:23+00:00</lastmod>
 </url>
 <url>
 <loc>https://arth2001.github.io/tags/</loc>
-<lastmod>2025-02-03T15:35:10+00:00</lastmod>
+<lastmod>2025-02-03T15:42:23+00:00</lastmod>
 </url>
 <url>
 <loc>https://arth2001.github.io/archives/</loc>
-<lastmod>2025-02-03T15:35:10+00:00</lastmod>
+<lastmod>2025-02-03T15:42:23+00:00</lastmod>
 </url>
 <url>
 <loc>https://arth2001.github.io/about/</loc>
-<lastmod>2025-02-03T15:35:10+00:00</lastmod>
+<lastmod>2025-02-03T15:42:23+00:00</lastmod>
 </url>
 <url>
 <loc>https://arth2001.github.io/</loc>
