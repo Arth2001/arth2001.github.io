@@ -28,7 +28,7 @@ sudo ssh -i /path/to/privatekey username@external-ip
 ```
 
 
-# Create and password user for OpenCTI
+# Create user and password  for OpenCTI
 
 ```console
 # created user and directory for username
@@ -126,8 +126,8 @@ http://<internal-ip or localhost or external-ip>:8080/
 
 # Use Login and Password set in .env file
 
-OPENBAS_ADMIN_EMAIL=admin@opencti.io   #change me
-OPENBAS_ADMIN_PASSWORD=admin@123  #change me
+OPENCTI_ADMIN_EMAIL=admin@opencti.io   #change me
+OPENCTI_ADMIN_PASSWORD=admin@123  #change me
 ```
 
 
