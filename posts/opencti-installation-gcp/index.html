@@ -620,7 +620,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="377 words"
+  title="382 words"
 >
   <em>2 min</em> read</span>
 
@@ -656,16 +656,16 @@
 </pre></td></tr></tbody></table></code></div></div>
 
 <h1 id="access-ssh-instance">Access SSH Instance</h1>
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+<div class="language-console highlighter-rouge"><div class="code-header">
+        <span data-label-text="Console"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>
-</pre></td></tr></tbody></table></code></div></div>
+</pre></td><td class="rouge-code"><pre><span class="go">sudo ssh -i /path/to/privatekey username@external-ip
+</span></pre></td></tr></tbody></table></code></div></div>
 
 <h1 id="create-and-password-user-for-opencti">Create and password user for OpenCTI</h1>
 
-<div class="language-bash highlighter-rouge"><div class="code-header">
-        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+<div class="language-console highlighter-rouge"><div class="code-header">
+        <span data-label-text="Console"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
@@ -687,58 +687,58 @@
 19
 20
 21
-</pre></td><td class="rouge-code"><pre><span class="c"># created user and directory for username</span>
-<span class="nb">sudo </span>useradd <span class="nt">-m</span> <span class="nt">-d</span> /home/opencti opencti
+</pre></td><td class="rouge-code"><pre><span class="gp">#</span><span class="w"> </span>created user and directory <span class="k">for </span>username
+<span class="go">sudo useradd -m -d /home/opencti opencti
 
-<span class="c"># passwd for user</span>
-<span class="nb">sudo </span>passwd opencti 
-
-
-<span class="c"># Assign specific shell for user</span>
-<span class="nb">sudo </span>usermod <span class="nt">-s</span> /bin/bash opencti
+</span><span class="gp">#</span><span class="w"> </span>passwd <span class="k">for </span>user
+<span class="go">sudo passwd opencti 
 
 
-<span class="c"># Add user into sudo groups </span>
-<span class="nb">sudo </span>usermod <span class="nt">-aG</span> <span class="nb">sudo </span>opencti   <span class="c"># For sudo permission</span>
+</span><span class="gp">#</span><span class="w"> </span>Assign specific shell <span class="k">for </span>user
+<span class="go">sudo usermod -s /bin/bash opencti
 
 
-<span class="c"># change user </span>
-su opencti
+</span><span class="gp">#</span><span class="w"> </span>Add user into <span class="nb">sudo groups</span> 
+<span class="gp">sudo usermod -aG sudo opencti   #</span><span class="w"> </span>For <span class="nb">sudo </span>permission
+<span class="go">
+
+</span><span class="gp">#</span><span class="w"> </span>change user 
+<span class="go">su opencti
 
 
-<span class="c"># change directory</span>
-<span class="nb">cd</span> /home/opencti
-</pre></td></tr></tbody></table></code></div></div>
+</span><span class="gp">#</span><span class="w"> </span>change directory
+<span class="go">cd /home/opencti
+</span></pre></td></tr></tbody></table></code></div></div>
 
 <h1 id="install-dependencies">Install dependencies</h1>
-<div class="language-bash highlighter-rouge"><div class="code-header">
-        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+<div class="language-console highlighter-rouge"><div class="code-header">
+        <span data-label-text="Console"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
 5
-</pre></td><td class="rouge-code"><pre><span class="nb">sudo </span>apt update
-<span class="nb">sudo </span>apt <span class="nt">-y</span> upgrade
-<span class="nb">sudo </span>apt-get <span class="nb">install</span> <span class="nt">-y</span> docker.io docker-compose
+</pre></td><td class="rouge-code"><pre><span class="go">sudo apt update
+sudo apt -y upgrade
+sudo apt-get install -y docker.io docker-compose
 
-<span class="nb">sudo </span>sysctl <span class="nt">-w</span> vm.max_map_count<span class="o">=</span>1048575
-</pre></td></tr></tbody></table></code></div></div>
+sudo sysctl -w vm.max_map_count=1048575
+</span></pre></td></tr></tbody></table></code></div></div>
 
 <h1 id="check-the-docker-service-is-running-">Check the Docker service is running …….</h1>
-<div class="language-bash highlighter-rouge"><div class="code-header">
-        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+<div class="language-console highlighter-rouge"><div class="code-header">
+        <span data-label-text="Console"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
-</pre></td><td class="rouge-code"><pre><span class="nb">sudo </span>systemctl status docker.service
-<span class="nb">sudo </span>systemctl start docker.service
-<span class="nb">sudo </span>systemctl stop docker.service
-</pre></td></tr></tbody></table></code></div></div>
+</pre></td><td class="rouge-code"><pre><span class="go">sudo systemctl status docker.service
+sudo systemctl start docker.service
+sudo systemctl stop docker.service
+</span></pre></td></tr></tbody></table></code></div></div>
 
 <h1 id="clone-opencti-repository">Clone OPENCTI Repository</h1>
-<div class="language-bash highlighter-rouge"><div class="code-header">
-        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+<div class="language-console highlighter-rouge"><div class="code-header">
+        <span data-label-text="Console"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
@@ -765,60 +765,60 @@ su opencti
 24
 25
 26
-</pre></td><td class="rouge-code"><pre><span class="c"># check the file name .env.sample, rename it to .env in sample directory where you have clone the repo.</span>
-<span class="nb">sudo cp</span> .env.sample .env
+</pre></td><td class="rouge-code"><pre><span class="gp">#</span><span class="w"> </span>check the file name .env.sample, rename it to .env <span class="k">in </span>sample directory where you have clone the repo.
+<span class="go">sudo cp .env.sample .env
 
-<span class="c"># open file .env with nano command</span>
-<span class="nb">sudo </span>nano .env
+</span><span class="gp">#</span><span class="w"> </span>open file .env with nano <span class="nb">command</span>
+<span class="go">sudo nano .env
 
-<span class="c"># Copy content of file and Paste :</span>
+</span><span class="gp">#</span><span class="w"> </span>Copy content of file and Paste :
+<span class="go">%%
+OPENCTI_ADMIN_EMAIL=admin@opencti.io
+OPENCTI_ADMIN_PASSWORD=admin@123
+OPENCTI_ADMIN_TOKEN=b122b5a2-901a-4112-9d50-9f5a2487df7c
+</span><span class="gp">OPENCTI_BASE_URL=http://&lt;internal-ip&gt;</span>:8080
+<span class="go">OPENCTI_HEALTHCHECK_ACCESS_KEY=4f1607f3-9c26-416a-afe2-fb4a6632d54f
+MINIO_ROOT_USER=opencti
+MINIO_ROOT_PASSWORD=admin@123
+RABBITMQ_DEFAULT_USER=opencti
+RABBITMQ_DEFAULT_PASS=admin@123
+CONNECTOR_EXPORT_FILE_STIX_ID=dd817c8b-abae-460a-9ebc-97b1551e70e6
+CONNECTOR_EXPORT_FILE_CSV_ID=7ba187fb-fde8-4063-92b5-c3da34060dd7
+CONNECTOR_EXPORT_FILE_TXT_ID=ca715d9c-bd64-4351-91db-33a8d728a58b
+CONNECTOR_IMPORT_FILE_STIX_ID=72327164-0b35-482b-b5d6-a5a3f76b845f
+CONNECTOR_IMPORT_DOCUMENT_ID=c3970f8a-ce4b-4497-a381-20b7256f56f0
+CONNECTOR_ANALYSIS_ID=4dffd77c-ec11-4abe-bca7-fd997f79fa36
+SMTP_HOSTNAME=localhost
+ELASTIC_MEMORY_SIZE=4G
 %%
-<span class="nv">OPENCTI_ADMIN_EMAIL</span><span class="o">=</span>admin@opencti.io
-<span class="nv">OPENCTI_ADMIN_PASSWORD</span><span class="o">=</span>admin@123
-<span class="nv">OPENCTI_ADMIN_TOKEN</span><span class="o">=</span>b122b5a2-901a-4112-9d50-9f5a2487df7c
-<span class="nv">OPENCTI_BASE_URL</span><span class="o">=</span>http://&lt;internal-ip&gt;:8080
-<span class="nv">OPENCTI_HEALTHCHECK_ACCESS_KEY</span><span class="o">=</span>4f1607f3-9c26-416a-afe2-fb4a6632d54f
-<span class="nv">MINIO_ROOT_USER</span><span class="o">=</span>opencti
-<span class="nv">MINIO_ROOT_PASSWORD</span><span class="o">=</span>admin@123
-<span class="nv">RABBITMQ_DEFAULT_USER</span><span class="o">=</span>opencti
-<span class="nv">RABBITMQ_DEFAULT_PASS</span><span class="o">=</span>admin@123
-<span class="nv">CONNECTOR_EXPORT_FILE_STIX_ID</span><span class="o">=</span>dd817c8b-abae-460a-9ebc-97b1551e70e6
-<span class="nv">CONNECTOR_EXPORT_FILE_CSV_ID</span><span class="o">=</span>7ba187fb-fde8-4063-92b5-c3da34060dd7
-<span class="nv">CONNECTOR_EXPORT_FILE_TXT_ID</span><span class="o">=</span>ca715d9c-bd64-4351-91db-33a8d728a58b
-<span class="nv">CONNECTOR_IMPORT_FILE_STIX_ID</span><span class="o">=</span>72327164-0b35-482b-b5d6-a5a3f76b845f
-<span class="nv">CONNECTOR_IMPORT_DOCUMENT_ID</span><span class="o">=</span>c3970f8a-ce4b-4497-a381-20b7256f56f0
-<span class="nv">CONNECTOR_ANALYSIS_ID</span><span class="o">=</span>4dffd77c-ec11-4abe-bca7-fd997f79fa36
-<span class="nv">SMTP_HOSTNAME</span><span class="o">=</span>localhost
-<span class="nv">ELASTIC_MEMORY_SIZE</span><span class="o">=</span>4G
-%%
-</pre></td></tr></tbody></table></code></div></div>
+</span></pre></td></tr></tbody></table></code></div></div>
 
-<div class="language-bash highlighter-rouge"><div class="code-header">
-        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+<div class="language-console highlighter-rouge"><div class="code-header">
+        <span data-label-text="Console"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
-</pre></td><td class="rouge-code"><pre><span class="c"># If your `docker-compose` deployment does not support `.env` files, just export all environment variables before launching the platform:</span>
-<span class="nb">export</span> <span class="si">$(</span><span class="nb">cat</span> .env | <span class="nb">grep</span> <span class="nt">-v</span> <span class="s2">"#"</span> | xargs<span class="si">)</span>
+</pre></td><td class="rouge-code"><pre><span class="gp">#</span><span class="w"> </span>If your <span class="sb">`</span>docker-compose<span class="sb">`</span> deployment does not support <span class="sb">`</span>.env<span class="sb">`</span> files, just <span class="nb">export </span>all environment variables before launching the platform:
+<span class="gp">export $</span><span class="o">(</span><span class="nb">cat</span> .env | <span class="nb">grep</span> <span class="nt">-v</span> <span class="s2">"#"</span> | xargs<span class="o">)</span>
 </pre></td></tr></tbody></table></code></div></div>
 
 <h1 id="run-docker-compose-command-to-start-docker-instance">Run docker compose command to start docker instance</h1>
-<div class="language-bash highlighter-rouge"><div class="code-header">
-        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+<div class="language-console highlighter-rouge"><div class="code-header">
+        <span data-label-text="Console"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
 5
-</pre></td><td class="rouge-code"><pre><span class="c"># if docker service is  running ..... | skip this step</span>
-<span class="nb">sudo </span>systemctl start docker.service 
+</pre></td><td class="rouge-code"><pre><span class="gp">#</span><span class="w"> </span><span class="k">if </span>docker service is  running ..... | skip this step
+<span class="go">sudo systemctl start docker.service 
 
-<span class="c"># Run docker-compose in detached</span>
-<span class="nb">sudo </span>docker-compose up <span class="nt">-d</span>
-</pre></td></tr></tbody></table></code></div></div>
+</span><span class="gp">#</span><span class="w"> </span>Run docker-compose <span class="k">in </span>detached
+<span class="go">sudo docker-compose up -d
+</span></pre></td></tr></tbody></table></code></div></div>
 
 <h1 id="access-opencti-platform">Access OpenCTI Platform</h1>
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+<div class="language-console highlighter-rouge"><div class="code-header">
+        <span data-label-text="Console"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
@@ -827,14 +827,14 @@ su opencti
 6
 7
 8
-</pre></td><td class="rouge-code"><pre># Open Browser (chrome, firefox)
-http://&lt;internal-ip or localhost or external-ip&gt;:8080/
+</pre></td><td class="rouge-code"><pre><span class="gp">#</span><span class="w"> </span>Open Browser <span class="o">(</span>chrome, firefox<span class="o">)</span>
+<span class="gp">http://&lt;internal-ip or localhost or external-ip&gt;</span>:8080/
+<span class="go">
 
-
-# Use Login and Password set in .env file
-
-OPENBAS_ADMIN_EMAIL=admin@opencti.io   #change me
-OPENBAS_ADMIN_PASSWORD=admin@123  #change me
+</span><span class="gp">#</span><span class="w"> </span>Use Login and Password <span class="nb">set </span><span class="k">in</span> .env file
+<span class="go">
+</span><span class="gp">OPENBAS_ADMIN_EMAIL=admin@opencti.io   #</span>change me
+<span class="gp">OPENBAS_ADMIN_PASSWORD=admin@123  #</span>change me
 </pre></td></tr></tbody></table></code></div></div>
 
 

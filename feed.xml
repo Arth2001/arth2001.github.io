@@ -4,7 +4,7 @@
   <id>https://arth2001.github.io/</id>
   <title>Octomuski</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-02-03T14:47:17+00:00</updated>
+  <updated>2025-02-03T15:35:10+00:00</updated>
   <author>
     <name>Octomuski</name>
     <uri>https://arth2001.github.io/</uri>
@@ -51,13 +51,10 @@ System Requirement:
 
 
 Access SSH Instance
+sudo ssh -i /path/to/privatekey username@external-ip
 
 
-
-Create and password user for OpenCTI
-
-# created user and directory for username
-sudo u...</summary>
+Create and password user for OpenC...</summary>
 
   </entry>
 
