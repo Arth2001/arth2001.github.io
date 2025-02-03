@@ -4,7 +4,7 @@
   <id>https://arth2001.github.io/</id>
   <title>Octomuski</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-02-03T14:13:36+00:00</updated>
+  <updated>2025-02-03T14:16:22+00:00</updated>
   <author>
     <name>Octomuski</name>
     <uri>https://arth2001.github.io/</uri>
@@ -22,9 +22,9 @@
   <entry>
     <title>OpenCTI Installation on Google Cloud Platform</title>
     <link href="https://arth2001.github.io/posts/opencti-installation-gcp/" rel="alternate" type="text/html" title="OpenCTI Installation on Google Cloud Platform" />
-    <published>2024-12-21T00:00:00+00:00</published>
+    <published>2025-02-03T00:00:00+00:00</published>
   
-    <updated>2024-12-21T00:00:00+00:00</updated>
+    <updated>2025-02-03T00:00:00+00:00</updated>
   
     <id>https://arth2001.github.io/posts/opencti-installation-gcp/</id>
     <content type="text/html" src="https://arth2001.github.io/posts/opencti-installation-gcp/" />
