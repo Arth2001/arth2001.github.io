@@ -4,7 +4,7 @@
   <id>https://arth2001.github.io/</id>
   <title>Octomuski</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2024-12-21T22:20:07+00:00</updated>
+  <updated>2025-02-03T14:12:05+00:00</updated>
   <author>
     <name>Octomuski</name>
     <uri>https://arth2001.github.io/</uri>
@@ -12,16 +12,16 @@
   <link rel="self" type="application/atom+xml" href="https://arth2001.github.io/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
     href="https://arth2001.github.io/"/>
-  <generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator>
-  <rights> © 2024 Octomuski </rights>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2025 Octomuski </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
 
   
   <entry>
-    <title>HELLO WORLD</title>
-    <link href="https://arth2001.github.io/posts/my_first_post/" rel="alternate" type="text/html" title="HELLO WORLD" />
+    <title>OpenCTI Installation on Google Cloud Platform</title>
+    <link href="https://arth2001.github.io/posts/my_first_post/" rel="alternate" type="text/html" title="OpenCTI Installation on Google Cloud Platform" />
     <published>2024-12-21T00:00:00+00:00</published>
   
     <updated>2024-12-21T00:00:00+00:00</updated>
@@ -34,13 +34,20 @@
 
   
     
-    <category term="documentation" />
+    <category term="Installation" />
     
   
 
-  <summary>hello welcome
-
-bundle server</summary>
+  <summary>Prerequisites
+System Requirement: 
+	OS : Ubuntu 24.04 LTS (x86/64, amd64)
+	Disk Size: 30 GB     # recommended more size as per your requirement 
+	memory: 16 GB
+	core: 4 vcpu (1 shared core)
+	Networking: 
+		Allow port 80 # http traffic
+		Allow port 8080
+		Allow port 443 # https traffic</summary>
 
   </entry>
 
