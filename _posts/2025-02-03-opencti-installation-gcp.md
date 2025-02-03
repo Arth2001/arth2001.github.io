@@ -1,7 +1,7 @@
 ---
 layout: post
 title: OpenCTI Installation on Google Cloud Platform
-date: 21-12-2024
+date: 03-02-2025
 categories: [Installation]
 tags: [like,comment,subscribe]
 ---
@@ -10,7 +10,6 @@ tags: [like,comment,subscribe]
 
 
 # Prerequisites
-```
 System Requirement: 
 	OS : Ubuntu 24.04 LTS (x86/64, amd64)
 	Disk Size: 30 GB     # recommended more size as per your requirement 
@@ -20,4 +19,4 @@ System Requirement:
 		Allow port 80 # http traffic
 		Allow port 8080
 		Allow port 443 # https traffic
-```
+
