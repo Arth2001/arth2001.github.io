@@ -23,14 +23,14 @@ System Requirement:
 ```
 
 # Access SSH Instance
-```
-
+```console
+sudo ssh -i /path/to/privatekey username@external-ip
 ```
 
 
 # Create and password user for OpenCTI
 
-```bash
+```console
 # created user and directory for username
 sudo useradd -m -d /home/opencti opencti
 
@@ -56,7 +56,7 @@ cd /home/opencti
 
 
 # Install dependencies
-```bash
+```console
 sudo apt update
 sudo apt -y upgrade
 sudo apt-get install -y docker.io docker-compose
@@ -65,14 +65,14 @@ sudo sysctl -w vm.max_map_count=1048575
 ```
 
 # Check the Docker service is running .......
-```bash
+```console
 sudo systemctl status docker.service
 sudo systemctl start docker.service
 sudo systemctl stop docker.service
 ```
 
 # Clone OPENCTI Repository
-```bash
+```console
 # check the file name .env.sample, rename it to .env in sample directory where you have clone the repo.
 sudo cp .env.sample .env
 
@@ -102,7 +102,7 @@ ELASTIC_MEMORY_SIZE=4G
 ```
 
 
-```bash
+```console
 # If your `docker-compose` deployment does not support `.env` files, just export all environment variables before launching the platform:
 export $(cat .env | grep -v "#" | xargs)
 ```
@@ -110,7 +110,7 @@ export $(cat .env | grep -v "#" | xargs)
 
 
 # Run docker compose command to start docker instance 
-```bash
+```console
 # if docker service is  running ..... | skip this step
 sudo systemctl start docker.service 
 
@@ -119,7 +119,7 @@ sudo docker-compose up -d
 ```
 
 # Access OpenCTI Platform
-```
+```console
 # Open Browser (chrome, firefox)
 http://<internal-ip or localhost or external-ip>:8080/
 
@@ -129,5 +129,12 @@ http://<internal-ip or localhost or external-ip>:8080/
 OPENBAS_ADMIN_EMAIL=admin@opencti.io   #change me
 OPENBAS_ADMIN_PASSWORD=admin@123  #change me
 ```
+
+
+
+
+
+
+
 
 
