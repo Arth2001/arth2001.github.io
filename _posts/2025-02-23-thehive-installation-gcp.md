@@ -20,11 +20,11 @@ System Requirement:
 
 
 <div align="center">
-    <img src="_images/23-02-2025/thehive%20img%201.png" alt="Instance Name" width ="800" >
+    <img src="https://github.com/Arth2001/arth2001.github.io/blob/main/_images/23-02-2025/thehive%20img%201.png" alt="Instance Name" width ="800" >
     <p><em><b>Instance Name</b></em></p>
 </div>
 <div align="center">
-    <img src="_images/23-02-2025/thehive%20img%202.png" alt="OS & Storage" width ="800" >
+    <img src="https://github.com/Arth2001/arth2001.github.io/blob/main/_images/23-02-2025/thehive%20img%202.png" alt="OS & Storage" width ="800" >
     <p><em><b>OS & Storage</b></em></p>
 </div>
 
@@ -40,13 +40,13 @@ Networking :
 
 
 <div align="center">
-    <img src="_images/23-02-2025/thehive%20img%203.png" alt="Network allow traffic" width ="800" >
+    <img src="https://github.com/Arth2001/arth2001.github.io/blob/main/_images/23-02-2025/thehive%20img%203.png" alt="OS & Storage" width ="800" >
     <p><em><b>Network allow traffic</b></em></p>
 </div>
 
 
 <div align="center">
-    <img src="_images/23-02-2025/thehive%20img%204.png" alt="Network interface" width ="800">
+    <img src="https://github.com/Arth2001/arth2001.github.io/blob/main/_images/23-02-2025/thehive%20img%204.png" alt="OS & Storage" width ="800" >
     <p><em><b>Network interface</b></em></p>
 </div>
 
@@ -60,7 +60,7 @@ To enable traffic on port 9000, navigate to the Firewall (VPC Network).
 Create a firewall rule to allow traffic on port 9000 using the TCP protocol.
 
 <div align="center">
-    <img src="_images/23-02-2025/thehive%20img%205.png" alt="Firewall Rule Name" width ="800">
+    <img src="https://github.com/Arth2001/arth2001.github.io/blob/main/_images/23-02-2025/thehive%20img%205.png" alt="OS & Storage" width ="800" >
     <p><em><b>Firewall Rule Name</b></em></p>
 </div>
 
@@ -70,7 +70,7 @@ Set Target & Source IPv4 Ranges
 	-  Source IPv4 ranges : 0.0.0.0/0
 ```
 <div align="center">
-    <img src="_images/23-02-2025/thehive%20img%206.png" alt="Set target and Source Ipv4" width ="800">
+    <img src="https://github.com/Arth2001/arth2001.github.io/blob/main/_images/23-02-2025/thehive%20img%206.png" alt="OS & Storage" width ="800" >
     <p><em><b>Set target and Source Ipv4 </b></em></p>
 </div>
 
@@ -82,7 +82,7 @@ Scroll down to Protocol and Ports
 ```
 
 <div align="center">
-    <img src="_images/23-02-2025/thehive%20img%207.png" alt="Set Protocol & Port 9000" width ="800">
+    <img src="https://github.com/Arth2001/arth2001.github.io/blob/main/_images/23-02-2025/thehive%20img%207.png" alt="OS & Storage" width ="800" >
     <p><em><b>Set Protocol & Port 9000 </b></em></p>
 </div>
 
@@ -119,7 +119,7 @@ When you execute the script, the following output will appear:
 
 
 <div align="center">
-    <img src="_images/23-02-2025/thehive%20img%208.png" alt="Script Execution" width ="800">
+    <img src="https://github.com/Arth2001/arth2001.github.io/blob/main/_images/23-02-2025/thehive%20img%208.png" alt="OS & Storage" width ="800" >
     <p><em><b>Script Execution </b></em></p>
 </div>
 
@@ -131,7 +131,7 @@ The next option allows us to install TheHive and Cortex. We will choose option 2
 
 
 <div align="center">
-    <img src="_images/23-02-2025/thehive%20img%209.png" alt="Initilization " width ="800">
+    <img src="https://github.com/Arth2001/arth2001.github.io/blob/main/_images/23-02-2025/thehive%20img%209.png" alt="OS & Storage" width ="800" >
     <p><em><b>Script Initilization </b></em></p>
 </div>
 
@@ -141,7 +141,7 @@ The installation process will take approximately 5 to 8 minutes to complete.
 
 
 <div align="center">
-    <img src="_images/23-02-2025/thehive%20img%2010.png" alt="Proccess completion " width ="800">
+    <img src="https://github.com/Arth2001/arth2001.github.io/blob/main/_images/23-02-2025/thehive%20img%2010.png" alt="OS & Storage" width ="800" >
     <p><em><b>Proccess Completion </b></em></p>
 </div>
 
@@ -158,7 +158,7 @@ Refresh the page 1-2 times to ensure the webpage loads properly.
 
 
 <div align="center">
-    <img src="_images/23-02-2025/thehive%20img%2011.png" alt="thehive login page " width ="800">
+    <img src="https://github.com/Arth2001/arth2001.github.io/blob/main/_images/23-02-2025/thehive%20img%2011.png" alt="OS & Storage" width ="800" >
     <p><em><b>thehive login page </b></em></p>
 </div>
 
@@ -171,7 +171,7 @@ The default credentials for logging into TheHive are:
 
 
 <div align="center">
-    <img src="_images/23-02-2025/thehive%20img%2012.png" alt="Dashboard " width ="800">
+    <img src="https://github.com/Arth2001/arth2001.github.io/blob/main/_images/23-02-2025/thehive%20img%2012.png" alt="OS & Storage" width ="800" >
     <p><em><b>thehive home Page </b></em></p>
 </div>
 
