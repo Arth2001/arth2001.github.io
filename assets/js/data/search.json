@@ -1,6 +1,23 @@
 [
   
   {
+    "title": "thehive Installation on Google Cloud Platform",
+    "url": "/posts/thehive-installation-gcp/",
+    "categories": "Installation",
+    "tags": "like, comment, subscribe",
+    "date": "2025-02-23 00:00:00 +0000",
+    
+
+
+
+
+
+    
+    "snippet": "PrerequisitesSystem Requirement:     OS : Ubuntu 22.04 LTS (x86/64, amd64)    Disk Size: 50 GB     # recommended more size as per your requirement     memory: 16 GB    core: 4 vcpu (1 shared core) ...",
+    "content": "PrerequisitesSystem Requirement:     OS : Ubuntu 22.04 LTS (x86/64, amd64)    Disk Size: 50 GB     # recommended more size as per your requirement     memory: 16 GB    core: 4 vcpu (1 shared core)    region : us-central1    zone : Any        Instance Name        OS &amp; StorageNetworking : \t- default interface Ipv4 (10.128.0.0/20)\t- Allow http traffic (port 80)\t-  Allow https traffic (port 443)\t- Allow Port 9000 for traffic (thehive server running .................................. )        Network allow traffic        Network interfaceNow Let Create a Instance …………………………….To enable traffic on port 9000, navigate to the Firewall (VPC Network).Create a firewall rule to allow traffic on port 9000 using the TCP protocol.        Firewall Rule NameSet Target &amp; Source IPv4 Ranges\t- Target : All instances in the network\t-  Source IPv4 ranges : 0.0.0.0/0        Set target and Source Ipv4 Scroll down to Protocol and Ports\t- Check box the TCP protocol\t- write 9000 in Placeholder        Set Protocol &amp; Port 9000 Then Create Firewall rule …………………………….Let’s now connect to the instance via SSH.To update and upgrade the package repository on a Linux server, use the following commands:# update and upgrade repository for linux serversudo apt update &amp;&amp; sudo apt upgrade -yLet now Install the thehive in server using automate scriptVisit the below link for where you can get reference[Automated Installation Script docs](https://example.com](https://docs.strangebee.com/thehive/installation/automated-installation-script/#using-the-installation-script )# automate script wget -q -O /tmp/install.sh https://archives.strangebee.com/scripts/install.sh ; sudo -v ; bash /tmp/install.shWhen you execute the script, the following output will appear:        Script Execution Type : yesThe next option allows us to install TheHive and Cortex. We will choose option 2.        Script Initilization The installation process will take approximately 5 to 8 minutes to complete.        Proccess Completion Now, let’s access TheHive using the URL provided:URL: http://:9000Refresh the page 1-2 times to ensure the webpage loads properly.        thehive login page The default credentials for logging into TheHive are:  Login: admin@thehive.local  Password: secret        thehive home Page Congratulations! You have successfully set up TheHive. 🎉"
+  },
+  
+  {
     "title": "OpenCTI Installation on Google Cloud Platform",
     "url": "/posts/opencti-installation-gcp/",
     "categories": "Installation",

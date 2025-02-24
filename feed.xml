@@ -4,7 +4,7 @@
   <id>https://arth2001.github.io/</id>
   <title>Octomuski</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-02-23T23:52:03+00:00</updated>
+  <updated>2025-02-24T00:36:52+00:00</updated>
   <author>
     <name>Octomuski</name>
     <uri>https://arth2001.github.io/</uri>
@@ -17,6 +17,52 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>thehive Installation on Google Cloud Platform</title>
+    <link href="https://arth2001.github.io/posts/thehive-installation-gcp/" rel="alternate" type="text/html" title="thehive Installation on Google Cloud Platform" />
+    <published>2025-02-23T00:00:00+00:00</published>
+  
+    <updated>2025-02-23T00:00:00+00:00</updated>
+  
+    <id>https://arth2001.github.io/posts/thehive-installation-gcp/</id>
+    <content type="text/html" src="https://arth2001.github.io/posts/thehive-installation-gcp/" />
+    <author>
+      <name>Octomuski</name>
+    </author>
+
+  
+    
+    <category term="Installation" />
+    
+  
+
+  <summary>Prerequisites
+System Requirement: 
+    OS : Ubuntu 22.04 LTS (x86/64, amd64)
+    Disk Size: 50 GB     # recommended more size as per your requirement 
+    memory: 16 GB
+    core: 4 vcpu (1 shared core)
+    region : us-central1
+    zone : Any
+
+
+
+    
+    Instance Name
+
+
+    
+    OS &amp;amp;amp; Storage
+
+
+Networking : 
+	- default interface Ipv4 (10.128.0.0/20)
+	- Allow http traffic (port 80)
+	-  Allow h...</summary>
+
+  </entry>
 
   
   <entry>
